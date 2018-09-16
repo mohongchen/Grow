@@ -1,0 +1,224 @@
+
+.banner {
+    height: 567px;
+    position: relative;
+    overflow: hidden;
+}
+.banner img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+
+}
+.banner .circles{
+    width: 108px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -47px;
+}
+.banner .circles li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 15px;
+    background: url(../images/icons.png) no-repeat -100px -35px;
+    cursor: pointer;
+}
+.banner .circles li.cur{
+    background: url(../images/icons.png) no-repeat -112px -35px;
+}
+
+.product{
+    padding-top: 50px;
+    height: 229px;
+    border-bottom: 1px solid #DBE1E7;
+    position: relative;
+}
+.product ul{
+    height: 280px;
+    
+}
+.product li{
+    
+}
+.product li a{
+    display: block;
+    width: 218px;
+    height: 186px;
+    float: left;
+    padding-bottom: 20px;
+    margin-right: 43px;
+}
+.product ul li.last a{
+    width: 217px;
+    margin-right: 0px;
+}
+
+.product li a span.c{
+    color: #444866;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.product li a span.e{
+    color: #38B774;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.product li a span.e b{
+    padding-right: 12px;
+    background: url(../images/arrow.png) no-repeat right center;
+}
+.product li a:hover{
+    background: #38B774;
+}
+.product li a:hover span.c,.product li a:hover span.e{
+    color: #ffffff
+}
+.product li a:hover span.e b{
+    background: url(../images/arrow2.png) no-repeat right center;
+}
+
+.product .circles{
+    position: absolute;
+    width: 117px;
+    height: 12px;
+    left: 50%;
+    margin-left: -59px;
+    bottom: -6px;
+    background: white;
+}
+.product .circles li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url(../images/icons.png) no-repeat -100px -47px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.product .circles li.cur{
+    background-position: -112px -47px;
+}
+.information{
+    width: 100%;
+    padding-top: 53px;
+    height: 367px;
+    background: url(../images/mountain.jpg) no-repeat center bottom
+}
+.information .news{
+    width: 500px;
+    float: left;
+    position: relative
+}
+.information .news .hd h3{
+    text-indent: -999px;
+    overflow: hidden;
+}
+.information .news .hd{
+    height: 120px;
+    width: 500px;
+    background: url(../images/news_hd.jpg) no-repeat right top
+}
+.information .news .hd a.more{
+    display: block;
+    width: 64px;
+    height: 26px;
+    text-align: center;
+    color: #38B972;
+    font-size: 12px;
+    border: 1px solid #38B972;
+    border-radius: 4px;
+    position: absolute;
+    top: 39px;
+    left: 218px;
+}
+.information .news .hd a.more:hover{
+    color: #fff;
+    background: #38B972
+}
+.information .news .bd ul{
+    padding: 0 20px;
+}
+.information .news .bd span.date{
+    margin-right: 21px
+}
+.information .news .bd li{
+    height: 51px;
+    width: 460px;
+    border-bottom: 1px solid #DBE1E7;
+    line-height: 51px;
+}
+.information .news .bd a{
+    color: #444866;
+}
+.information .news ul li.first {
+    height: 38px;
+    line-height: 36px;
+}
+.information .news .bd a:hover{
+    color: #38B774
+}
+
+.information .jobs{
+    width: 500px;
+    height: 310px;
+    float: left;
+    background: url(../images/jobs_bg.jpg);
+    overflow: hidden;
+    position: relative
+}
+.information .jobs h3{
+    width: 420px;
+    height: 50px;
+    padding: 44px 0 0 80px;    
+}
+.information .jobs h3 span.c{
+    display: block;
+    font-size: 28px;
+    line-height: 28px;
+    color: #fff;
+}
+.information .jobs h3 span.e{
+    color: #fff;
+}
+.information .jobs a.more{
+    display: block;
+    width: 66px;
+    height: 28px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 39px;
+    left: 218px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff
+}
+.information .jobs .hd a:hover{
+    color: #30BD72;
+    background: #fff
+}
+.information .jobs .bd{
+    width: 305px;
+    height: 174px;
+    padding: 17px 175px 0 20px;
+}
+.information .jobs .bd h4{
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white; 
+}
+
+.information .jobs .bd a{
+    color: #fff
+}
+.information .jobs .bd li{
+    display: block;
+    width: 305px;
+    height: 38px;
+    border-bottom: 1px solid #6FDEA3
+}
