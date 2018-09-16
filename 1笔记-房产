@@ -1,0 +1,19 @@
+文字水平居中 ：text-align:center;
+单行文字垂直居中： line-height: 行高;
+块中文字水平居中：text-align：center
+
+
+块元素居中：margin： 0 auto
+
+行转块：display：block
+
+position:relative  相对定位是不脱离文档流的  会占原来的位置 一般用来微调元素
+position:absoulute 绝对定位  相对于最近的一个已定位的父元素的定位
+可以用来居中
+left：50%；
+margin-left:-宽度的一半
+
+隐藏元素： 
+visibility： hidden
+display: none
+opacity :0 (只是看不见)
