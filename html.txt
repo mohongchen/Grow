@@ -1,0 +1,5 @@
+常用的html标签
+容器：			div、ul（li）、ol、dl、table
+放文字的：		h系列、p、span、a
+文本流：		img、input
+当做css钩子：	b、u、i
